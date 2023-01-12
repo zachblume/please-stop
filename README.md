@@ -1,2 +1,5 @@
 # please-stop
-Stop all gmail spam once and for all, without any clicks. Simply do not "read" 4 emails in one week from the same sender, and it sends future emails from that sender to archive. After a couple weeks... no more spam! Auto-whitelists certain keywords like "interview", and obeys your existing whitlists.
+
+Stop all gmail spam with one click. Any senders who you left unread multiple times in one week will have future emails skip your inbox (straight to archive).
+
+Auto-whitelists certain keywords like "interview", and obeys your existing whitlists.
