@@ -1,0 +1,19 @@
+{
+  "name": "please-stop",
+  "version": "1.0.0",
+  "description": "Stop all gmail spam once and for all, without any clicks. Simply do not \"read\" 4 emails in one week from the same sender, and it sends future emails from that sender to archive. After a couple weeks... no more spam! Auto-whitelists certain keywords like \"interview\", and obeys your existing whitlists.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachblume/please-stop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachblume/please-stop/issues"
+  },
+  "homepage": "https://github.com/zachblume/please-stop#readme"
+}
