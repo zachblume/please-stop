@@ -19,9 +19,12 @@
   },
   "homepage": "https://github.com/zachblume/please-stop#readme",
   "dependencies": {
+    "@google-cloud/local-auth": "^2.1.1",
+    "dotenv": "^16.0.3",
+    "googleapis": "^110.0.0",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.75.0",
-    "webpack-dev-server": "^4.11.1",
-    "webpack-cli": "^5.0.1"
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
   }
 }

@@ -1,6 +1,8 @@
 // get google API
 const { google } = require("googleapis");
 
+require("dotenv").config();
+
 // import env config
 const { GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REDIRECT_URL } =
   process.env;
@@ -13,7 +15,10 @@ const oauth2Client = new google.auth.OAuth2(
 );
 
 // generate a url that asks permissions for Blogger and Google Calendar scopes
-const scopes = ["https://www.googleapis.com/auth/gmail"];
+const scopes = [
+  "https://mail.google.com/",
+  "https://www.googleapis.com/auth/gmail.labels",
+];
 
 const url = oauth2Client.generateAuthUrl({
   // 'online' (default) or 'offline' (gets refresh_token)
@@ -25,3 +30,4 @@ const url = oauth2Client.generateAuthUrl({
   scope: scopes.length == 1 ? scopes.toString() : scopes,
 });
 
+console.log(url);
