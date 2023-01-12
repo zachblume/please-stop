@@ -4,7 +4,9 @@
   "description": "Stop all gmail spam once and for all, without any clicks. Simply do not \"read\" 4 emails in one week from the same sender, and it sends future emails from that sender to archive. After a couple weeks... no more spam! Auto-whitelists certain keywords like \"interview\", and obeys your existing whitlists.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/zachblume/please-stop/issues"
   },
-  "homepage": "https://github.com/zachblume/please-stop#readme"
+  "homepage": "https://github.com/zachblume/please-stop#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-cli": "^5.0.1"
+  }
 }
